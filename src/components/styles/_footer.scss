@@ -1,0 +1,93 @@
+.footer{
+    width: 100%;
+    // height: 240px;
+    // display:flex;
+    // align-items: start;
+    background-color: #5964e0;//rgb(35, 49, 59);
+    border-radius: 0 4em 0 0;
+    .footer-content{
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-evenly;
+        // align-items: center;
+        width: 90%;
+        // margin: 0 auto;
+        span{
+            font-size: 36px;
+            color: white;
+            flex: 3;
+            padding-left: 40px;
+            font-family: Pacifico;
+        }
+        .list{
+            list-style: none;
+            margin: 0 24px;
+            width: 160px;
+        }
+        .list li:first-child a{
+            color: rgb(0, 0, 131);
+            font-weight: 600;
+        }
+        .list li:first-child{
+            margin-bottom: 7px;
+        }
+        .list li:first-child a:hover{
+            text-decoration: none;
+        }
+        .list li{
+            margin-bottom: 3px;
+        }
+        .list li a{
+            color: white;
+            font-size: 14px;
+            
+        }
+        .list li a:hover{
+            text-decoration: underline;
+        }
+    }
+    .footer-end{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        // list-style: none;
+        .left{
+            color: white;
+            display: flex;
+            padding-bottom: 10px;
+            li{
+                margin-right: 10px;
+                list-style: none;
+                font-size: 13px;
+            }
+            .temp{
+                border-right: 1.5px solid white;
+                padding-right: 4px;
+            }
+            .temp:hover{
+                color: black;
+                cursor: pointer;
+                // border-right: 1.5px solid gray;
+                // transition: color 0.1s ease-in 0.1s;
+            }
+            li:last-child:hover{
+                color: black;
+                cursor: pointer;
+                // border-right: 1.5px solid gray;
+                // transition: color 0.1s ease-in 0.1s;
+            }
+        }
+        .right{
+            display: flex;
+            margin-right: 94px;
+            li{
+                margin: 0 6px;
+                list-style: none;
+                a:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

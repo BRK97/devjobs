@@ -1,0 +1,160 @@
+.navbar{
+    // position: sticky;
+    // top: 0;
+    // z-index: 10;
+    // background-color: #5964e0;
+    background: linear-gradient(to right, #5964e0, #6f95e7);//#5B86E5
+    height:90px;
+    width:100vw;
+    border-radius: 0 0 0 4rem;
+    margin-bottom: 30px;
+    .header{
+        @include out-frame;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        span{
+            width: 100px;
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+            letter-spacing: 0.1em;
+        }
+        .page-theme{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100px;
+            .navbar-toggle{
+                position: relative;
+                appearance: none;
+                outline-style: none;
+                width: 34px;
+                height:18px;
+            }
+            .navbar-toggle::before{
+                content: '';
+                position:absolute;
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                box-sizing: border-box;
+                border-radius:1em;
+                transition: ease-in .15s;
+            }
+            .navbar-toggle::after{
+                content: '';
+                position:absolute;
+                width: 10px;
+                height: 10px;
+                background-color: #5964e0;
+                box-sizing: border-box;
+                border-radius:1rem;
+                top: 4px;
+                left: 3px;
+                transition: ease-in .15s;
+            }
+            .navbar-toggle:checked::before{
+                transition: ease-in 0.15s;
+            }
+            .navbar-toggle:checked::after{
+                left: 21px;
+                transition: ease-in 0.15s;
+
+            }
+        }
+
+    }
+    .search{
+        @include out-frame;
+        background-color:rgb(255, 255, 255);
+        border-radius: 0.6em;
+        box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.3);
+        display: flex;
+        form{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .job-filter{
+                flex: 1;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content:space-evenly;
+                border-right: 1px solid lightgray;
+                input{
+                    width: 86%;
+                    outline: none;
+                    border: none;
+                    font-weight: 500;
+                }
+                input:focus::placeholder{
+                    color: transparent;
+                    transition: ease-in-out 0.1s;
+                }
+            }
+            .location-filter{
+                flex: 1;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                align-content: center;
+                justify-content:space-evenly;
+                border-right: 1px solid lightgray;
+                input{
+                    width: 86%;
+                    outline: none;
+                    border: none;
+                    font-weight: 500;
+                    
+                }
+                input:focus::placeholder{
+                    color: transparent;
+                    transition: ease-in-out 0.1s;
+                }
+            }
+            .filter-search{
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .filter-search-option{
+                    width: 60%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    button{
+                        padding: 12px 12px;
+                        background-color:#e8e8ea;
+                        border: none;
+                        border-radius: 0.5em;
+                        margin-left: 6px;
+                    }
+                    label{
+                        margin-left: 8px;
+                        font-weight: 500;
+                        font-size:15px;
+                    }
+                }
+                
+                #search{
+                    background-color: #5964e0;
+                    color: white;
+                    border: none;
+                    font-weight: 500;
+                    font-size:15px;
+                    border-radius: 0.4em;
+                    padding:12px 18px;
+                    margin-right: 6px;
+                }
+                #search:hover{
+                    background-color: #606cf0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,91 @@
+.position{
+    width: 102%;
+    background-color:white;
+    .content{
+        .header{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div{
+                margin-top: 6px;
+                margin-left: 20px;
+                line-height:2;
+                span{
+                    color:rgb(128, 128, 128)
+                }
+                #country{
+                    color: #5964e0;
+                    font-weight: 600;
+                    font-size:18px;
+                }
+                .dot{
+                    height: 3px;
+                    width: 3px;
+                    background-color: rgb(128, 128, 128);
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin: 0px 7px 3px 7px;
+                }
+            }
+            a{
+                margin-right: 12px;
+                border-radius: 0.5em;
+                padding: 14px 24px;
+                background-color: #5964e0;
+                color: white;
+                font-weight: 800;
+                letter-spacing:0.05em;
+            }
+        }
+        .body{
+            width: 94%;
+            margin: 34px auto;
+            h2{
+                margin: 10px 0;
+                font-weight: 800;
+            }
+            p{
+                font-size:14px;
+                color: gray;
+                line-height:1.6;
+            }
+            ul, ol{
+                span{
+                    color: gray;
+                    font-size: 14px;
+                    font-weight: normal;
+                }
+                color: #5964e0;
+                font-size: 18px;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+            .closer{
+                padding-bottom: 40px;
+                padding-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin: 60px auto;
+                border-top: 1px solid rgb(207, 207, 207);
+                div{
+                    span{
+                        color: gray;
+                        font-size: 18px;
+                    }
+                }
+                a{
+                    background-color: #5964e0;
+                    color: white;
+                    padding: 14px 24px;
+                    border-radius: 0.5em;
+                    font-weight: 800;
+                    letter-spacing:0.05em;
+                    
+                }
+            }
+        }
+    }
+}

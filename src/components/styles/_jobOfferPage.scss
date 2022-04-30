@@ -1,0 +1,48 @@
+.job-offer-page{
+    min-height: 186px;
+    max-width: 70%;
+    margin: 60px auto;
+    .the-job-offers{
+        width: 100%;
+        .temp{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-between;
+        }
+        .paginationBttns {
+            width: 80%;
+            height: 40px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+          }
+          
+          .paginationBttns a {
+            padding: 10px;
+            margin: 8px;
+            border-radius: 5px;
+            border: 1px solid #5964e0;
+            color: #5964e0;
+            cursor: pointer;
+          }
+          
+          .paginationBttns a:hover {
+            color: white;
+            background-color: #5964e0;
+          }
+          
+          .paginationActive a {
+            color: white;
+            background-color: #5964e0;
+          }
+          
+          .paginationDisabled a {
+            color: grey;
+            border-color: grey;
+          }
+          .paginationDisabled a:hover{
+              background-color:lightgray;
+          }
+    }
+}

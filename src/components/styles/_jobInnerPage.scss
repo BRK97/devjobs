@@ -1,0 +1,49 @@
+.job-inner-page{
+    min-height: 276px;
+    width: 70%;
+    margin: 0 auto;
+    .company-intro{
+        width: 102%;
+        margin: 60px 0 20px 0;
+        background-color: white;
+        .company-intro-card{
+            display: flex;
+            height:128px;
+            // margin-left: 14px;
+            .image{
+                flex: 2;
+                img{
+                    width: 128px;
+                    height:128px;
+                }
+            }
+            .company-links{
+                
+                flex: 6;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .company-link{
+                    line-height: 2;
+                    span{
+                        color: gray;
+                    }
+                }
+                a{
+                    margin-right: 11px;
+                    border-radius: 0.4em;
+                    padding: 6px;
+                    color: #5964e0;
+                    font-weight: 600;
+                    background-color: white;
+                }
+                a:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+        
+    }
+}
