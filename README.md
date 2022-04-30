@@ -1,3 +1,9 @@
+https://user-images.githubusercontent.com/73640959/166123403-a1e7093d-94a5-4d72-af94-744f3809ac6c.mp4
+
+
+https://user-images.githubusercontent.com/73640959/166123423-9fa1295c-7fe8-48da-8649-cb0e4f4a5e10.mp4
+
+
 Old project I made when I just started learning react.
 I used mostly react and SASS to create this website and its main 
 objective was to create a functioning UI for a job seeking website.
@@ -22,3 +28,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
