@@ -8,6 +8,16 @@ Old project I made when I just started learning react.
 I used mostly react and SASS to create this website and its main 
 objective was to create a functioning UI for a job seeking website.
 
+#### Prerequisites
+* Git
+* Node JS
+
+1. Clone the repo and install dependencies
+  ```
+      git clone 
+      npm i
+  ```
+
 ## Available Scripts
 
 In the project directory, you can run:
